@@ -43,8 +43,10 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.platform.LocalInspectionMode
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import app.lawnchair.betterlawnicons.R
 import app.lawnchair.betterlawnicons.model.IconInfo
 import app.lawnchair.betterlawnicons.ui.theme.LawniconsTheme
 import app.lawnchair.betterlawnicons.ui.util.PreviewLawnicons
@@ -63,7 +65,6 @@ fun IconPreview(
     iconInfo: IconInfo,
     onSendResult: (IconInfo) -> Unit,
     modifier: Modifier = Modifier,
-    iconBackground: Color? = null,
     isIconPicker: Boolean = false,
 ) {
     val isIconInfoShown = rememberSaveable { mutableStateOf(false) }
@@ -71,7 +72,6 @@ fun IconPreview(
         iconInfo = iconInfo,
         onSendResult = onSendResult,
         modifier = modifier,
-        iconBackground = iconBackground,
         isIconPicker = isIconPicker,
         showSheet = isIconInfoShown.value,
         onToggleSheet = { isIconInfoShown.value = it },
@@ -84,7 +84,6 @@ fun IconPreview(
     iconInfo: IconInfo,
     onSendResult: (IconInfo) -> Unit,
     modifier: Modifier = Modifier,
-    iconBackground: Color? = null,
     isIconPicker: Boolean = false,
     showSheet: Boolean = false,
     onToggleSheet: (Boolean) -> Unit = {},
@@ -112,11 +111,7 @@ fun IconPreview(
                 },
             )
             .background(
-                color = iconBackground ?: if (showSheet) {
-                    MaterialTheme.colorScheme.surfaceVariant
-                } else {
-                    MaterialTheme.colorScheme.iconColor
-                },
+                color = colorResource(R.color.primaryBackground),
             ),
     ) {
         if (LocalInspectionMode.current) {
