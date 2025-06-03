@@ -41,7 +41,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lawnicons"
+rootProject.name = "Better-Lawnicons"
 
 enableFeaturePreview("STABLE_CONFIGURATION_CACHE")
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")

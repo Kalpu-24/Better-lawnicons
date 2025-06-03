@@ -102,7 +102,7 @@ android {
     applicationVariants.all {
         outputs.all {
             (this as? ApkVariantOutputImpl)?.outputFileName =
-                "LawniconsMoto $versionName v${versionCode}_${buildType.name}.apk"
+                "Better Lawnicons $versionName v${versionCode}_${buildType.name}.apk"
         }
     }
 
