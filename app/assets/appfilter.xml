@@ -6252,9 +6252,10 @@
   <item component="ComponentInfo{app.lawnchair.debug/leakcanary.internal.activity.LeakLauncherActivity}" drawable="lawnchair" name="Lawnchair Debug" />
   <item component="ComponentInfo{app.lawnchair.debug/app.lawnchair.LawnchairLauncher}" drawable="lawnchair" name="Lawnchair Debug" />
   <item component="ComponentInfo{app.lawnchair.nightly/app.lawnchair.LawnchairLauncher}" drawable="lawnchair" name="Lawnchair Nightly" />
-  <item component="ComponentInfo{app.lawnchair.lawnicons/app.lawnchair.lawnicons.MainActivity}" drawable="lawnicons" name="Lawnicons" />
-  <item component="ComponentInfo{app.lawnchair.lawnicons.play/app.lawnchair.lawnicons.MainActivity}" drawable="lawnicons" name="Lawnicons" />
-  <item component="ComponentInfo{app.lawnchair.lawnicons.light/app.lawnchair.lawnicons.MainActivity}" drawable="lawnicons" name="Lawnicons Light" />
+    <item component="ComponentInfo{app.lawnchair.lawnicons/app.lawnchair.lawnicons.MainActivity}" drawable="lawnicons" name="Lawnicons" />
+    <item component="ComponentInfo{app.lawnchair.lawnicons.play/app.lawnchair.lawnicons.MainActivity}" drawable="lawnicons" name="Lawnicons" />
+    <item component="ComponentInfo{app.lawnchair.lawnicons.light/app.lawnchair.lawnicons.MainActivity}" drawable="lawnicons" name="Lawnicons Light" />
+    <item component="ComponentInfo{app.lawnchair.betterlawnicons/app.lawnchair.betterlawnicons.MainActivity}" drawable="lawnicons" name="Lawnicons" />
   <item component="ComponentInfo{com.instagram.layout/com.instagram.layout.LayoutActivity}" drawable="layout_from_instagram" name="Layout from Instagram" />
   <item component="ComponentInfo{com.lazada.android/com.lazada.activities.EnterActivity}" drawable="lazada" name="Lazada" />
   <item component="ComponentInfo{com.lazada.android/pt.rocket.view.SplashScreenActivity}" drawable="lazada" name="Lazada" />

@@ -295,9 +295,9 @@ You can use it to find app components. If you fulfill icon requests from our tab
 An app component is a record consisting of a package and an activity, separated by `/`. App components allow you to link icons and apps. 
 
 Sample (Lawnicons)  
-Package: `app.lawnchair.lawnicons`  
-Activity: `app.lawnchair.lawnicons.MainActivity`  
-App component: `app.lawnchair.lawnicons/app.lawnchair.lawnicons.MainActivity`  
+Package: `betterlawnicons`  
+Activity: `betterlawnicons.MainActivity`  
+App component: `betterlawnicons/betterlawnicons.MainActivity`  
 
 **Lawnicons**  
 
@@ -369,7 +369,7 @@ Let's imagine that you have an icon in SVG format, an app name and an app compon
 
 Icon: `lawnicons.svg`  
 App name: `Lawnicons`  
-App component: `app.lawnchair.lawnicons/app.lawnchair.lawnicons.MainActivity`
+App component: `betterlawnicons/betterlawnicons.MainActivity`
 
 1. Fork our repository so that you have your own copy to work with. Your repository will be a bridge between our repository and your contribution.
 2. Clone your repository in GitHub Desktop and open it with a file explorer. This is your local copy.
@@ -378,7 +378,7 @@ App component: `app.lawnchair.lawnicons/app.lawnchair.lawnicons.MainActivity`
 
 ```
 Do
-<item component="ComponentInfo{app.lawnchair.lawnicons/app.lawnchair.lawnicons.MainActivity}" drawable="lawnicons" name="Lawnicons" />
+<item component="ComponentInfo{betterlawnicons/betterlawnicons.MainActivity}" drawable="lawnicons" name="Lawnicons" />
 
 Template
 <item component="ComponentInfo{APP_COMPONENT}" drawable="ICON_NAME" name="APP_NAME" />

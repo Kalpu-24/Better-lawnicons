@@ -2,7 +2,7 @@
     <!-- General -->
 
     <!-- Application name -->
-    <string name="app_name" translatable="false">LawniconsMoto</string>
+    <string name="app_name" translatable="false">Better Lawnicons</string>
     <!-- Version name, with %s as the version code -->
     <string name="version_x">Version %s</string>
 
@@ -93,6 +93,6 @@
     <string name="new_icons_in_version">New icons in v%1$s</string>
     <string name="new_icons">New icons (%1$s)</string>
     <string name="Apply" translatable="false">Apply To Moto</string>
-    <string name="Moto_Maintainer">MotoPort Maintainer</string>
-    <string name="contribution_moto">Motorola Port</string>
+    <string name="Moto_Maintainer" translatable="false">MotoPort Maintainer</string>
+    <string name="contribution_moto" translatable="false">Motorola Port</string>
 </resources>
